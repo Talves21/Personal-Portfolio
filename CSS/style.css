@@ -1,0 +1,21 @@
+header{
+    background-image: url(../Images/Sunset.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+.topBar{
+    background-color: #b30101;
+}
+
+.title h1{
+    border: 2px solid black;
+    outline: 3px solid #ff7300
+}
+
+.topBar .btn{
+    background-color: #d90400;
+    color: white;
+}
