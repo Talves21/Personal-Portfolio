@@ -1,5 +1,5 @@
 header{
-    background-image: url(../Images/Sunset.jpg);
+    background-image: url(https://cdn.pixabay.com/photo/2023/10/21/11/46/sunset-8331285_960_720.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -12,10 +12,31 @@ header{
 
 .title h1{
     border: 2px solid black;
-    outline: 3px solid #ff7300
+    outline: 3px solid #ff7300;
+}
+
+.btn a{
+    color: white;
+    text-decoration: none;
+}
+
+.socialLinks img{
+    width: 35px;
+}
+
+.mainText{
+    color: black;
+}
+
+.mainText span{
+    color: #d10100;
 }
 
 .topBar .btn{
     background-color: #d90400;
     color: white;
+}
+
+.mainSection{
+    background-color: #ffb06c;
 }
