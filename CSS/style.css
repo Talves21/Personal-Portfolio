@@ -1,18 +1,65 @@
+body{
+    background-image: linear-gradient(#f9b600, #ca4a12);
+}
+
+/* Background Image */
 header{
-    background-image: url(https://cdn.pixabay.com/photo/2023/10/21/11/46/sunset-8331285_960_720.jpg);
+    background-image: url(https://cdn.pixabay.com/animation/2023/03/17/02/19/02-19-19-487_512.gif);
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    background-size: 100% 100%;
     color: white;
 }
 
+/* Font */
+h1{
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+h2{
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+h3{
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+h4{
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.btn a{
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.mainText p{
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+/* Title and Navigation */
 .topBar{
-    background-color: #b30101;
+    background-color: #f7a900;
+}
+
+.topBar .btn{
+    background-color: #ca4a12;
+    color: white;
 }
 
 .title h1{
     border: 2px solid black;
-    outline: 3px solid #ff7300;
+    outline: 3px solid #ca4a12;
 }
 
 .btn a{
@@ -24,19 +71,11 @@ header{
     width: 35px;
 }
 
+/* Text with background image */
 .mainText{
     color: black;
 }
 
 .mainText span{
     color: #d10100;
-}
-
-.topBar .btn{
-    background-color: #d90400;
-    color: white;
-}
-
-.mainSection{
-    background-color: #ffb06c;
 }
