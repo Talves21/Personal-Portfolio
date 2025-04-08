@@ -9,7 +9,7 @@ body a{
 }
 
 body a:hover{
-    color: white;
+    color: #f7a900;
 }
 
 /* Background Image */
@@ -17,7 +17,6 @@ header{
     background-image: url(https://cdn.pixabay.com/animation/2023/03/17/02/19/02-19-19-487_512.gif);
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    color: white;
 }
 
 /* Font */
@@ -37,6 +36,7 @@ h3{
     font-family: "Caveat", cursive;
     font-optical-sizing: auto;
     font-style: normal;
+    color: white;
 }
 
 h4{
@@ -62,6 +62,7 @@ h4{
     background-color: #f7a900;
     position: fixed;
     width: 100%;
+    animation: phase 2s;
 }
 
 .topBar .btn{
@@ -70,6 +71,7 @@ h4{
 }
 
 .title h1{
+    color: white;
     border: 2px solid black;
     outline: 3px solid #ca4a12;
 }
@@ -85,14 +87,30 @@ h4{
 
 /* Text with background image */
 .mainText{
-    color: black;
+    color: white;
+    animation: phase 3s;
 }
 
 .mainText span{
     color: #d10100;
 }
 
+/* Main section text */
+.about{
+    animation: phase 3s;
+}
+
+/* Images */
+.pcImage{
+    animation: warp 1s;
+}
+
 /* Projects */
+
+.projects a{
+    color: white;
+}
+
 .detroix{
     border: 2px solid #f7a900;
     border-left: none;
@@ -117,4 +135,18 @@ h4{
     border: 2px solid #f7a900;
     border-right: none;
     border-bottom: none;
+}
+
+/* Animations */
+@keyframes phase{
+    0% {opacity: 0%;}
+}
+
+@keyframes warp{
+    0% {
+		transform: scale(0, .025);
+	}
+	50% {
+		transform: scale(1, .025);
+	}
 }
