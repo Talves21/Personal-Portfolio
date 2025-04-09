@@ -14,7 +14,7 @@ body a:hover{
 
 /* Background Image */
 header{
-    background-image: url(https://cdn.pixabay.com/animation/2023/03/17/02/19/02-19-19-487_512.gif);
+    background-image: url(../Images/Windmills.gif);
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
@@ -109,6 +109,10 @@ h4{
 
 .projects a{
     color: white;
+}
+
+.projects img{
+    width: 40%;
 }
 
 .detroix{
